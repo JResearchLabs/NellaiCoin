@@ -5,7 +5,7 @@ import "github.com/JResearchLabs/aigisos/server"
 const (
 	DefaultGenesisFileName = "genesis.json"
 	DefaultChainName       = "aigisos"
-	DefaultChainID         = 334
+	DefaultChainID         = 100
 	DefaultPremineBalance  = "0x3635C9ADC5DEA00000" // 1000 ETH
 	DefaultConsensus       = server.IBFTConsensus
 	DefaultGenesisGasUsed  = 458752  // 0x70000

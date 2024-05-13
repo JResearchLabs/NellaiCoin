@@ -8,7 +8,7 @@
       "eip158": 0,
       "eip155": 0
     },
-    "chainID": 334,
+    "chainID": 100,
     "engine": {
       "pow": {}
     }

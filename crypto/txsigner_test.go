@@ -105,7 +105,7 @@ func TestEIP155Signer_Sender(t *testing.T) {
 }
 
 func TestEIP155Signer_ChainIDMismatch(t *testing.T) {
-	chainIDS := []uint64{1, 10, 334}
+	chainIDS := []uint64{1, 10, 100}
 	toAddress := types.StringToAddress("1")
 
 	for _, chainIDTop := range chainIDS {

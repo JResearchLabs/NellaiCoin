@@ -36,7 +36,7 @@ func setFlags(cmd *cobra.Command) {
 	cmd.Flags().Uint64Var(
 		&params.chainID,
 		chainIDFlag,
-		334,
+		100,
 		"the network chain ID.",
 	)
 
